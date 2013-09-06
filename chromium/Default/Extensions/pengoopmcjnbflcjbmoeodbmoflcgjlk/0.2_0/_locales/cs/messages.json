@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "P\u0159id\u00E1 na li\u0161tu prohl\u00ED\u017Ee\u010De tla\u010D\u00EDtko Bloguj, kter\u00E9 umo\u017E\u0148uje jedin\u00FDm kliknut\u00EDm p\u0159idat z libovoln\u00E9 webov\u00E9 str\u00E1nky p\u0159\u00EDsp\u011Bvek do blogu slu\u017Eby Blogger."
+   },
+   "ext_name": {
+      "message": "Bloguj"
+   },
+   "locale": {
+      "message": "cs"
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Adiciona um bot\u00E3o \"BlogThis\" \u00E0 barra de ferramentas do navegador, que lhe permite publicar mensagens no seu blogue a partir de qualquer p\u00E1gina Web com apenas um clique."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "pt-PT"
+   }
+}

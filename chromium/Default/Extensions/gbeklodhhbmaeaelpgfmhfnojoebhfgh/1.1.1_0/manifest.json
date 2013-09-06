@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "www/index.html"
+      }
+   },
+   "description": "Spelling and literacy",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAgYXTlW3VFjMPCodHLM1gqhUP6G1dNpjP/Xr9dXOVHDivDNrgugNAq7SlGkM/vupt0qrfwM65kbyFlpGgsND0bFHtzKI4OiQvGViqpcZvOYcvSO+4I3KMOLrTOhi3WW4BiPdCDDy2vFnJ0sbzpfWz67KGfQWjH/WTaVJrKoZRmQIDAQAB",
+   "name": "Smudge: Fill the Gap",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}

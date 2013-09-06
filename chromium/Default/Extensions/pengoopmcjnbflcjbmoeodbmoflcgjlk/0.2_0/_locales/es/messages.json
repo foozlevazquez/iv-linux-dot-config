@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "A\u00F1ade un bot\u00F3n \"BlogThis!\" a la barra de herramientas del navegador para poder publicar entradas en tu blog de Blogger desde cualquier p\u00E1gina web con un solo clic."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "es"
+   }
+}

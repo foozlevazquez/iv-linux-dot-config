@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Adaug\u0103 un buton BlogThis! \u00EEn bara de instrumente a browserului, care v\u0103 va permite s\u0103 posta\u0163i din orice pagin\u0103 web pe blogul Blogger, cu numai un singur clic."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "ro"
+   }
+}

@@ -1,0 +1,234 @@
+/*///////////////COMMON TOP AND BOTTOM DIVS ///////////////////////*/
+
+#mp_div_top_section {
+    padding:             0;
+    margin:              0;
+    height:              121px;
+    max-height:          121px;
+    min-height:          121px;
+    width:               100%;
+    max-width:           100%;
+    min-width:           800px;
+    z-index:             2147483647;
+    border:              0;
+    left:                0px;
+    top:                 0px;
+    position:            fixed;
+    background:          transparent url(images/mp_bg_top.png) repeat-x;
+}
+#mp_toplogo_arr_image{
+    position:            absolute;
+    top:                 0px;
+    padding-left:        230px;
+    z-index:             100;
+}
+#mp_toplogo_image{
+    position:            absolute;
+    top:                 20px;
+    padding-left:        25px;
+    z-index:             100;
+}
+#mp_div_bottom_section{
+    min-width:           800px;
+    min-height:          121px;
+    position:            absolute;
+    bottom:              0px;
+    left:                0px;
+    height:              121px;
+    right:               0px;
+    border:              0;
+    background:          transparent url(images/mp_bg_btm.png) repeat-x;
+    z-index:             100;
+}
+#mp_bottomlogo_arr_image{
+    position:            absolute;
+    bottom:              1px;
+    padding-left:        230px;
+    z-index:             100;
+}
+#mp_bottomlogo_image{
+    position:            absolute;
+    left:                45px;
+    top:                 70px;
+    padding:             0;
+    z-index:             1000;
+}
+/*LOADER DIV AND IMAGE*/
+#mp_image_loader{
+    position:            absolute;
+    left:                0px;
+    top:                 0px;
+    padding:             0;
+    z-index:             1000;
+}
+#mp_div_loader{
+    display:             none;
+    position:            absolute;
+    left:                385px;
+    height:              24px;
+    width:               220px;
+    border:              0;
+}
+/************** END SECTION ****************************************/
+
+/*///////////////OPTIONS PAGE SECTION//////////////////////////////*/
+#prefs_body{
+    min-height:          500px;
+    margin:              0;
+    user-select:         none;
+   -khtml-user-select:   none;
+   -moz-user-select:     none;
+   -webkit-user-select:  none;
+}
+/*****  BUTTONS section  *****/
+#prefs_btns{
+    position:            absolute;
+    left:                515px;
+    top:                 473px;
+    min-width:           200px;
+    border:              0px solid red;
+}
+#cancel_prefs_btn,
+#save_prefs_btn{
+    margin:              0;
+    padding:             0;
+    height:              23px;
+    width:               auto;
+    font-family:         verdana;
+    font-weight:         400;
+    font-size:           13px;
+    border-radius:       5px;
+    text-align:		     left;         
+    text-indent:         26px;
+    padding-right:       8px;  
+    min-width:           85px;
+}
+.btn_default_class{
+    background-color:    #f0f0f0;
+    color:               RGB(113,113,113);
+    text-shadow:         0 1px white;
+    border:              1px solid grey;
+    box-shadow:          0 0 1px 1px #888;
+}
+.btn_mouseover_class{
+    background-color:    #ffffff;
+    color:               RGB(50,50,50);
+    text-shadow:         0 1px white;
+    border:              1px solid grey;
+    box-shadow:          0 0 1px 1px #555;
+}
+#save_prefs_btn{
+    background:          url("images/prefs_save.png") no-repeat 5px 2px; 
+    background-color:    #f0f0f0;
+}
+#cancel_prefs_btn{
+    margin-left:         7px;
+    background:          url("images/prefs_cancel.png") no-repeat 5px 2px; 
+    background-color:    #f0f0f0;
+}
+
+/*******RIGHT PART - div, group box, legend, checkboxes *******/
+.rf_options_div{
+    position:            absolute;
+    border:              0;
+    top:                 150px;
+    left:                250px;
+    width:               450px;
+    min-width:           450px;
+    max-width:           450px;
+    height:              300px;
+    margin:              0;
+    padding:             0;
+}
+.rf_prefs_fieldset{
+    font-family:         verdana;
+    font-size:           12px;
+    padding:             6px 1px 10px 10px;
+    margin:              0;
+    width:               100%;
+    border:              1px solid #ccc;
+    border-radius:       4px;
+    background-color:    #f3f3f3;
+    color:               RGB(90,90,90);
+    box-shadow:          6px 6px 5px #888;
+    background:          -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#fff));
+    background-image:    -o-linear-gradient(#f3f3f3,#fff);
+}
+.rf_prefs_fieldset legend{
+    font-family:         verdana;
+    font-size:           12px;
+    font-weight:         bold;
+}
+
+.options_input_class {
+	width:               200px;
+	max-width:           400px;
+   -webkit-border-radius:3px;
+    border:				 solid 1px #999;
+    font:				 normal 13px/100% Helvetica, Arial, Tahoma, sans-serif;
+    padding:             4px;  
+    background:			 -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,249,249,1)), color-stop(100%,rgba(255,255,255,1)));
+    box-shadow:			 rgba(0,0,0, 0.1) 0px 0px 3px;
+   -webkit-box-shadow:   rgba(0,0,0, 0.1) 0px 0px 3px;
+    margin-left:         15px;
+}
+/***** LEFT PART  switch div ******/
+#opt_div_dialog_section{
+    top:                 150px;
+    left:                8px;
+    width:               232px;
+    height:              350px;
+    min-height:          350px;
+    position:            absolute;
+    margin:              0;
+    padding:             0;
+    border:              0;
+}
+#prefs_menu{
+    bottom:              6px;
+    left:                3px;
+    top:                 7px;
+    right:               3px;
+    margin:              0;
+    padding:             0;
+    position:            absolute;
+    background-color:    #f1f1f1;
+    border-radius:       4px;
+    border:              1px solid #ccc;
+    box-shadow:          0 0 5px 3px RGB(155,155,155);
+    background:          -webkit-gradient(linear, left top, left bottom, from(#f1f1f1), to(#fff));
+    background-image:    -o-linear-gradient(#f1f1f1,#fff);
+}
+.menubuttontext{
+    width:               183px;
+    font-size:           13px;
+    padding-left:        27px;
+    padding-right:       5px;
+    vertical-align:      middle;
+    cursor:              default;
+    color:               RGB(90,90,90);
+    font-family:         verdana;
+    height:              30px;
+    line-height:         30px;
+    font-weight:         600;
+}
+.menubutton:hover{
+    background:          white;
+    color:               grey;
+}
+.menubutton2{
+    background:          #CBEA88;
+}
+.opt_section_div{
+    padding:             0;
+    margin:              0;
+}
+.menuspacer{
+    height:              6px;
+    padding-top:         5px;
+    background:          #F5FAFC;
+}
+.menuspacer div{
+    height:              1px;
+}
+/************** END SECTION ****************************************/

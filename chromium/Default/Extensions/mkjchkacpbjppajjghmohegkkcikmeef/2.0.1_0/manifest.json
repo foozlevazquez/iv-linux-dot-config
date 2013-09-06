@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.scootpad.com/signin?utm_source=ScootPad&utm_medium=Web&utm_campaign=ChromeWebStore"
+      },
+      "urls": [ "http://www.scootpad.com/?utm_source=ScootPad&utm_medium=Web&utm_campaign=ChromeWebStore" ]
+   },
+   "description": "ScootPad is the leading Math & Reading practice platform for Elementary Grades (K-5). Its Free!",
+   "icons": {
+      "128": "128x128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCslLNQFlu5yZupMHr1USrGe1cT1gzZ/BoFDD6OEG0/vw8eolarWnDvoTjnLZDY0vVTIom1LlxndrN5r1MhRqHq5RRVvbOSXRzxywR4z/ayxoOUekDKCwaVe/+nqOsp9ZDXtR7mfFH2tazzDiede00Caf/qXnc77wmeXiXFZJWXkQIDAQAB",
+   "name": "ScootPad",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2.0.1"
+}

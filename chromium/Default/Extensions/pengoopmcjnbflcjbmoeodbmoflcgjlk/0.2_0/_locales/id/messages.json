@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Tambahkan tombol BlogThis! ke bilah alat peramban, yang membantu Anda mengirim entri ke blog Blogger dari laman web mana pun dengan sekali klik."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "id"
+   }
+}

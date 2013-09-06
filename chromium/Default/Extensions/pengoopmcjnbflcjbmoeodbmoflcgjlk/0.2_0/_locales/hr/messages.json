@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Dodajte gumb BlogThis! na alatnu traku preglednika, pomo\u0107u njega mo\u0107i \u0107ete samo s jednim klikom objavljivati postove na svojem blogu na usluzi Blogger s bilo koje web-stranice."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "hr"
+   }
+}

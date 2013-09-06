@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Adds a Blog This! button to the browser toolbar, which lets you post to your Blogger blog from any web page, with just one click."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "en"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "container": "panel",
+         "local_path": "main.html"
+      }
+   },
+   "default_locale": "en",
+   "description": "__MSG_CHROME_EXT_VIDEO_CALL_LAUNCHER_APP__",
+   "icons": {
+      "128": "icon2_128.png",
+      "16": "icon2_16.png",
+      "48": "icon2_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnbNUzbpPLjx9x8e231MvLGaJdpoQCNg7dPMbIcjfpzKYoOdOB0zF8aCgPBbm1mGJLeAI8Adb9X3crep4bAU+6nVE9drfQkZLBclfzkE+zkczKBoUZiEsTwnpgpBRpHTCAM0VPSm7hhBY8RjR4omkaOAF0rImT0hocCT5h4FLo3wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_CHROME_EXT_VIDEO_CALL_LAUNCHER_APP__",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2013.610.1345"
+}

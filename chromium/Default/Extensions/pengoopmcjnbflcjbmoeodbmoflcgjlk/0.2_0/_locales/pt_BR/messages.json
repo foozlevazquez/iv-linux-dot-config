@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Adicione o bot\u00E3o \"Postar isso no blog!\" \u00E0 barra de ferramentas do navegador, que permite que voc\u00EA poste no seu blog do Blogger de qualquer p\u00E1gina em que voc\u00EA estiver com apenas um clique."
+   },
+   "ext_name": {
+      "message": "Bot\u00E3o \"Postar isso no blog!\""
+   },
+   "locale": {
+      "message": "pt-BR"
+   }
+}

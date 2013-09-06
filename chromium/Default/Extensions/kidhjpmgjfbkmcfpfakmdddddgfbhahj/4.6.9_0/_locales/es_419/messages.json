@@ -1,0 +1,614 @@
+{
+   "Authentication": {
+      "message": "Autentificaci\u00F3n"
+   },
+   "Automatically_Logoff_after_idle": {
+      "message": "Desconectar tras inactividad de"
+   },
+   "BUTTON_SUBMIT": {
+      "message": "Enviar"
+   },
+   "Build": {
+      "message": "Construir:"
+   },
+   "Business": {
+      "message": "Empresa"
+   },
+   "CL_EMAIL": {
+      "message": "Email"
+   },
+   "CL_ENTER_DESIRED_LOGIN": {
+      "message": "ID Usuario"
+   },
+   "CL_ENTER_DESIRED_PASSWORD": {
+      "message": "Contrase\u00F1a"
+   },
+   "CL_NAME": {
+      "message": "Nombre"
+   },
+   "CL_RETYPE_DESIRED_PASSWORD": {
+      "message": "Confirmar Contrase\u00F1a"
+   },
+   "Car": {
+      "message": "Coches"
+   },
+   "Clear_Search": {
+      "message": "Claro"
+   },
+   "Copy": {
+      "message": "Copiar"
+   },
+   "Copy_Password_to_Clipboard": {
+      "message": "Copiar Contrase\u00F1a al Portapapeles"
+   },
+   "Copy_full": {
+      "message": "Copiar"
+   },
+   "Copy_pwd": {
+      "message": "Copiar"
+   },
+   "Custom": {
+      "message": "Personalizar"
+   },
+   "Cut": {
+      "message": "Cortar objeto"
+   },
+   "Delete": {
+      "message": "Borrar"
+   },
+   "Edit": {
+      "message": "Editar"
+   },
+   "Enter_Master_Password": {
+      "message": "Enter RoboForm Master Password"
+   },
+   "Enter_your_RoboForm_Online_User_ID_and_Password": {
+      "message": "ID de usuario y contrase\u00F1a de RoboForm Everywhere:"
+   },
+   "Fields": {
+      "message": "Campos"
+   },
+   "Fill": {
+      "message": "Rellenar"
+   },
+   "Filter": {
+      "message": "Filtro"
+   },
+   "General": {
+      "message": "Opciones generales"
+   },
+   "Generate": {
+      "message": "Generar"
+   },
+   "Login": {
+      "message": "Conectar"
+   },
+   "Login_Tooltip": {
+      "message": "Login to RoboForm Everywhere account"
+   },
+   "Login_in_new_tab": {
+      "message": "Conectar en nueva"
+   },
+   "Master_Password_is_required": {
+      "message": "Master Password is required!"
+   },
+   "Match_Cards_Tooltip": {
+      "message": "Matching Passcards list. You can change default action in Options page"
+   },
+   "Matching_Passcard_def_action": {
+      "message": "Select default action for Matching Passcards, while clicking on RoboForm toolbar:"
+   },
+   "Matching_Passcards_Options": {
+      "message": "Matching Passcards Options"
+   },
+   "Minimal_Number_of_digits": {
+      "message": "M\u00EDnimo n\u00FAmero de d\u00EDgitos"
+   },
+   "New_Folder": {
+      "message": "Nueva Carpeta"
+   },
+   "No": {
+      "message": "No"
+   },
+   "Notifications": {
+      "message": "Notificaciones"
+   },
+   "Number_of_symbols": {
+      "message": "N\u00FAmero de caracteres"
+   },
+   "Password_protect_passcard": {
+      "message": "Proteger con Contrase\u00F1a Maestra las Conexiones nuevas"
+   },
+   "Paste": {
+      "message": "Pegar objeto"
+   },
+   "Person": {
+      "message": "Persona"
+   },
+   "RFJS_CAPTION_SIGNUP": {
+      "message": "Conexi\u00F3n a RoboForm Everywhere"
+   },
+   "RFJS_SIGNUP_LINK": {
+      "message": "Conexi\u00F3n a cuenta de RoboForm Everywhere"
+   },
+   "Recently_Items_Count": {
+      "message": "Show Last"
+   },
+   "Recently_Used": {
+      "message": "Recently Used Logins"
+   },
+   "Recently_used_logins": {
+      "message": "Show Recently Used Logins"
+   },
+   "Rename": {
+      "message": "Renombrar"
+   },
+   "RoboForm_Chrome_Extension": {
+      "message": "RoboForm Lite Chrome Extension"
+   },
+   "RoboForm_Menu": {
+      "message": "RoboForm Menu"
+   },
+   "RoboForm_Opera_Extension": {
+      "message": "RoboForm Lite Opera Extension"
+   },
+   "RoboForm_Safari_Extension": {
+      "message": "RoboForm Lite Safari Extension"
+   },
+   "Roboform_Master_Password": {
+      "message": "Contrase\u00F1a Maestra de RoboForm"
+   },
+   "Roboform_Online_Authentication": {
+      "message": "Identificaci\u00F3n de RoboForm Everywhere"
+   },
+   "Save_Options": {
+      "message": "Guardar Opciones"
+   },
+   "Search": {
+      "message": "Buscar"
+   },
+   "Security": {
+      "message": "Seguridad"
+   },
+   "Select": {
+      "message": "(select)"
+   },
+   "Session_Timeout": {
+      "message": "Desconectar sesi\u00F3n"
+   },
+   "Set_as_active": {
+      "message": "Establecer como predeterminado"
+   },
+   "Setup_Master_Password": {
+      "message": "Setup RoboForm Master Password"
+   },
+   "Show_AutoSave_Notification_Bar": {
+      "message": "Mostrar barra de Notificaci\u00F3n de Autoguardar"
+   },
+   "Show_logins_bmarks_together": {
+      "message": "Show Logins and Bookmarks together"
+   },
+   "TEXT_BACK": {
+      "message": "Anterior"
+   },
+   "TEXT_EMAIL_HINT": {
+      "message": "Por favor, escriba su Email correcto porque se usa para comprobar algunas acciones de su cuenta."
+   },
+   "TEXT_NOT_MP_HINT": {
+      "message": "Por seguridad, su contrase\u00F1a de RoboForm Everywhere debe ser diferente de su contrase\u00F1a maestra."
+   },
+   "TEXT_NOT_MP_HINT1": {
+      "message": "Por favor,\u003Cb style=\"color:red;\"\u003Erecuerde\u003C/b\u003E su ID de usuario y contrase\u00F1a (6-30 caracteres) porque se necesitan para acceder a su cuenta de RoboForm Everywhere."
+   },
+   "The_following_information_about": {
+      "message": "The following information about"
+   },
+   "Tie_session_IP": {
+      "message": "Per\u00EDodo de sesiones corbata identificador a la direcci\u00F3n IP"
+   },
+   "Version": {
+      "message": "Versi\u00F3n:"
+   },
+   "View": {
+      "message": "Ver"
+   },
+   "View_identity": {
+      "message": "View identity"
+   },
+   "Yes": {
+      "message": "S\u00ED"
+   },
+   "You_have_entered_an_invalid_User_ID_and_or_Password": {
+      "message": "Ha escrito un ID de usuario y/o contrase\u00F1a incorrectos"
+   },
+   "add_new_folder": {
+      "message": "Carpeta"
+   },
+   "add_new_object": {
+      "message": "Nueva..."
+   },
+   "alert_delete_msg": {
+      "message": "Seguro que quiere borrar"
+   },
+   "auto_logoff": {
+      "message": "Auto-Desconectar"
+   },
+   "bank_account": {
+      "message": "Cuenta bancaria"
+   },
+   "cache_mast_password_lbl_options": {
+      "message": "Use this password until logoff"
+   },
+   "cache_mast_pwd": {
+      "message": "Use this password until logoff"
+   },
+   "cancel_btn": {
+      "message": "Cancelar"
+   },
+   "create_dlg_title": {
+      "message": "Crear nuevo objeto"
+   },
+   "create_folder": {
+      "message": "Crear Nueva Carpeta"
+   },
+   "create_new": {
+      "message": "Crear nuevo "
+   },
+   "create_symbol_restrict": {
+      "message": "Los s\u00EDmbolos  \\ / \u003C \u003E ? : *  | no se les permite"
+   },
+   "credit_card": {
+      "message": "Tarjeta de cr\u00E9dito"
+   },
+   "day": {
+      "message": "dia"
+   },
+   "days": {
+      "message": "dias"
+   },
+   "editor_note_lbl": {
+      "message": "Nota:"
+   },
+   "extName": {
+      "message": "RoboForm Lite"
+   },
+   "file_not_found": {
+      "message": "Archivo no encontrado!"
+   },
+   "filt_identities": {
+      "message": "Identidades"
+   },
+   "filt_passcards": {
+      "message": "Conexiones"
+   },
+   "filt_safenotes": {
+      "message": "Seguro Notas"
+   },
+   "folder_already_exists": {
+      "message": "Objeto con el mismo nombre ya existe."
+   },
+   "folder_name": {
+      "message": "Nombre de carpeta:"
+   },
+   "form_fill_empty_fields": {
+      "message": "Rellena s\u00F3lo los campos vac\u00EDos"
+   },
+   "form_fill_section": {
+      "message": "Rellenar Formularios"
+   },
+   "found_objects": {
+      "message": "objetos fueron encontrados"
+   },
+   "generate_Pass_helptext1": {
+      "message": "Contrase\u00F1a generada. Click en \u003Cb\u003ERellenar\u003C/b\u003E rellena"
+   },
+   "generate_Pass_helptext2": {
+      "message": "el campo de contrase\u00F1a en el navegador."
+   },
+   "generate_Pass_helptext3": {
+      "message": "Click en \u003Cb\u003ECopiar\u003C/b\u003E la copiar al portapapeles. Click"
+   },
+   "generate_Pass_helptext4": {
+      "message": "en \u003Cb\u003EGenerar\u003C/b\u003E genera una contrase\u00F1a nueva."
+   },
+   "go_back": {
+      "message": "Volver "
+   },
+   "hour": {
+      "message": "hora"
+   },
+   "hours": {
+      "message": "horas"
+   },
+   "identity_def_tbar": {
+      "message": "(identidad)"
+   },
+   "is_available_for_viewing": {
+      "message": "is available for viewing"
+   },
+   "language": {
+      "message": "es"
+   },
+   "location": {
+      "message": "Ubicaci\u00F3n"
+   },
+   "login_btn": {
+      "message": "Conectar"
+   },
+   "mast_pwd_created_ok": {
+      "message": "Master Password was created"
+   },
+   "mast_pwd_limit": {
+      "message": "Password must be between 6 and 50 symbols"
+   },
+   "master_password_confirm_error": {
+      "message": "Cannot confirm Master Password"
+   },
+   "master_password_dual": {
+      "message": "Cannot view, as only the 1st part of dual MasterPassword is entered"
+   },
+   "master_password_empty": {
+      "message": "Master Password cannot be empty"
+   },
+   "master_password_not_created": {
+      "message": "Master Password is not created yet"
+   },
+   "master_password_wrong": {
+      "message": "\u003Cbr /\u003EContrase\u00F1a Maestra incorrecta. Por favor,\u003Cbr /\u003Eint\u00E9ntelo de nuevo."
+   },
+   "master_password_wrong1": {
+      "message": "\u003Cbr /\u003EContrase\u00F1a Maestra incorrecta. Por favor,\u003Cbr /\u003Eint\u00E9ntelo de nuevo."
+   },
+   "menu_Generate_Pass": {
+      "message": "Generar Contrase\u00F1a"
+   },
+   "menu_Help": {
+      "message": "Ayuda"
+   },
+   "menu_Identity": {
+      "message": "Identidades"
+   },
+   "menu_Identity_tbr_tip_act": {
+      "message": "Haga clic para llenar los campos"
+   },
+   "menu_Identity_tbr_tip_def": {
+      "message": "Sistema activo de identidad"
+   },
+   "menu_Logins": {
+      "message": "Conexiones"
+   },
+   "menu_Logins_Tooltip": {
+      "message": "Click for opening passcards list"
+   },
+   "menu_Logoff": {
+      "message": "Desconectar"
+   },
+   "menu_Logoff_Tooltip": {
+      "message": "Logout from RoboForm Everywhere account"
+   },
+   "menu_Options": {
+      "message": "Opciones"
+   },
+   "menu_Save": {
+      "message": "Save"
+   },
+   "menu_Tools": {
+      "message": "Tools"
+   },
+   "menu_bookmarks": {
+      "message": "Bookmarks"
+   },
+   "menu_clear_fields": {
+      "message": "Clear Fields"
+   },
+   "menu_clear_recused": {
+      "message": "Clear List"
+   },
+   "menu_contacts": {
+      "message": "Contacts"
+   },
+   "menu_country_code": {
+      "message": "Country Code"
+   },
+   "menu_expand_popup": {
+      "message": "Expanda"
+   },
+   "menu_goto": {
+      "message": "Ir A"
+   },
+   "menu_gotofill": {
+      "message": "Ir y Rellenar"
+   },
+   "menu_help_about": {
+      "message": "Acerca de"
+   },
+   "menu_help_faq": {
+      "message": "FAQ completas"
+   },
+   "menu_help_rfhome": {
+      "message": "Web de RoboForm"
+   },
+   "menu_help_rfonline": {
+      "message": "RoboForm Everywhere"
+   },
+   "menu_help_support": {
+      "message": "Asistencia"
+   },
+   "menu_help_tellfriend": {
+      "message": "Recomendar"
+   },
+   "menu_matching_edit": {
+      "message": "Editar"
+   },
+   "menu_matching_fill": {
+      "message": "Rellenar"
+   },
+   "menu_matching_fill_submit": {
+      "message": "Enviar"
+   },
+   "menu_matching_fillsubmit": {
+      "message": "Enviar"
+   },
+   "menu_matching_passcards": {
+      "message": "Fichas Acceso coincidentes"
+   },
+   "menu_national_prefix": {
+      "message": "National Prefix"
+   },
+   "menu_recently_used": {
+      "message": "Recently Used"
+   },
+   "menu_reset_fields": {
+      "message": "Reset Fields"
+   },
+   "menu_set_fields": {
+      "message": "Set Fields"
+   },
+   "menu_user_data": {
+      "message": "Everywhere data"
+   },
+   "menu_without_prefix": {
+      "message": "Without Prefix"
+   },
+   "min": {
+      "message": "min"
+   },
+   "month": {
+      "message": "month"
+   },
+   "mp_createmp_text": {
+      "message": "To password-protect your data you have to setup master password"
+   },
+   "new_bookmark": {
+      "message": "Marcador"
+   },
+   "new_bookmark_name": {
+      "message": "Nuevo Nombre de Marcador"
+   },
+   "new_contact": {
+      "message": "Contact"
+   },
+   "new_contact_name": {
+      "message": "Nuevo Nombre de Contacto"
+   },
+   "new_identity": {
+      "message": "Identity"
+   },
+   "new_identity_name": {
+      "message": "Nuevo Nombre de Identidad"
+   },
+   "new_login": {
+      "message": "Login"
+   },
+   "new_passcard_name": {
+      "message": "Nuevo Nombre de FichaAcceso"
+   },
+   "new_safenote": {
+      "message": "Seguronota"
+   },
+   "new_safenote_name": {
+      "message": "New Safenote name"
+   },
+   "offer_to_save_another_pcard": {
+      "message": "Oferta para salvar a otra tarjeta de identificaci\u00F3n, si ya existe para esta URL"
+   },
+   "password": {
+      "message": "Contrase\u00F1a:"
+   },
+   "password_protected1": {
+      "message": "Esta FichaAcceso est\u00E1 protegida con contrase\u00F1a."
+   },
+   "password_protected2": {
+      "message": "Escriba su contrase\u00F1a Maestra de para usar..."
+   },
+   "rename_folder": {
+      "message": "Renombrar Carpeta"
+   },
+   "rename_passcard": {
+      "message": "Renombrar/Eliminar"
+   },
+   "rewrite_object": {
+      "message": "Aceptar para continuar?"
+   },
+   "save_as_bookmark": {
+      "message": "Guardar como Favorito"
+   },
+   "save_close": {
+      "message": "Guardar"
+   },
+   "save_manual_title": {
+      "message": "Save Object"
+   },
+   "save_obj_success": {
+      "message": "El objeto fue guardado con \u00E9xito."
+   },
+   "savebar_close_btn": {
+      "message": "Cerrar"
+   },
+   "savebar_createmp_caption": {
+      "message": "Personalizar contrase\u00F1a maestra de RoboForm"
+   },
+   "savebar_createmp_confirm": {
+      "message": "Confirmar Contrase\u00F1a"
+   },
+   "savebar_createmp_password": {
+      "message": "Contrase\u00F1a Maestra"
+   },
+   "savebar_createmp_text1": {
+      "message": "Para proteger con contrase\u00F1a sus conexiones, debe"
+   },
+   "savebar_createmp_text2": {
+      "message": "tener una contras\u00F1a maestra"
+   },
+   "savebar_info_label": {
+      "message": "Guardar informaci\u00F3n como:"
+   },
+   "savebar_inhome_label": {
+      "message": "en"
+   },
+   "savebar_protect_ckbox": {
+      "message": "Protegido con contrase\u00F1a"
+   },
+   "savebar_rewrite_msg1": {
+      "message": "Ya existe."
+   },
+   "savebar_rewrite_msg2": {
+      "message": "Se sobreescribir\u00E1. \u00BFAcepta continuar?"
+   },
+   "savebar_save_btn": {
+      "message": "Guardar"
+   },
+   "savebar_savesuccess_msg1": {
+      "message": "Ficha Acceso  "
+   },
+   "savebar_savesuccess_msg2": {
+      "message": "guardada correctamente."
+   },
+   "savebar_wrong_mp_text": {
+      "message": "Por favor, escriba su contrase\u00F1a maestra de RoboForm"
+   },
+   "select_group_instance": {
+      "message": "Select Group Instance"
+   },
+   "session_expire": {
+      "message": "Your session has timed out. Please \u003Cbr /\u003Esign in again."
+   },
+   "tbar_matching": {
+      "message": "(matching)"
+   },
+   "user_id": {
+      "message": "ID Usuario:"
+   },
+   "week": {
+      "message": "semana"
+   },
+   "weeks": {
+      "message": "weeks"
+   },
+   "wrong_number_of_characters": {
+      "message": "N\u00FAmero de caracteres incorrecto"
+   },
+   "wrong_number_of_digits": {
+      "message": "N\u00FAmero de d\u00EDgitos incorrecto"
+   }
+}

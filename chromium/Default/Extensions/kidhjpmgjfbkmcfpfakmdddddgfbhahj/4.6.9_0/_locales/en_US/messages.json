@@ -1,0 +1,620 @@
+{
+   "Authentication": {
+      "message": "Authentication"
+   },
+   "Automatically_Logoff_after_idle": {
+      "message": "Automatically Logoff after idle"
+   },
+   "BUTTON_SUBMIT": {
+      "message": "Submit"
+   },
+   "Build": {
+      "message": "Build:"
+   },
+   "Business": {
+      "message": "Business"
+   },
+   "CL_EMAIL": {
+      "message": "Email"
+   },
+   "CL_ENTER_DESIRED_LOGIN": {
+      "message": "User ID"
+   },
+   "CL_ENTER_DESIRED_PASSWORD": {
+      "message": "Password"
+   },
+   "CL_NAME": {
+      "message": "Name"
+   },
+   "CL_RETYPE_DESIRED_PASSWORD": {
+      "message": "Confirm Password"
+   },
+   "Car": {
+      "message": "Car"
+   },
+   "Clear_Search": {
+      "message": "Clear"
+   },
+   "Copy": {
+      "message": "Copy object"
+   },
+   "Copy_Password_to_Clipboard": {
+      "message": "Copy Password to Clipboard"
+   },
+   "Copy_full": {
+      "message": "Copy"
+   },
+   "Copy_pwd": {
+      "message": "Copy"
+   },
+   "Custom": {
+      "message": "Custom"
+   },
+   "Cut": {
+      "message": "Cut object"
+   },
+   "Delete": {
+      "message": "Delete"
+   },
+   "Edit": {
+      "message": "Edit"
+   },
+   "Enter_Master_Password": {
+      "message": "Enter RoboForm Master Password"
+   },
+   "Enter_your_RoboForm_Online_User_ID_and_Password": {
+      "message": "Enter your RoboForm Everywhere User ID and Password:"
+   },
+   "Fields": {
+      "message": "Fields"
+   },
+   "Fill": {
+      "message": "Fill"
+   },
+   "Filter": {
+      "message": "Filter"
+   },
+   "General": {
+      "message": "General Options"
+   },
+   "Generate": {
+      "message": "Generate"
+   },
+   "Login": {
+      "message": "Login"
+   },
+   "Login_Tooltip": {
+      "message": "Login to RoboForm Everywhere account"
+   },
+   "Login_in_new_tab": {
+      "message": "Login in New Tab"
+   },
+   "Master_Password_is_required": {
+      "message": "Master Password is required!"
+   },
+   "Match_Cards_Tooltip": {
+      "message": "Matching Passcards list. You can change default action in Options page"
+   },
+   "Matching_Passcard_def_action": {
+      "message": "Select default action for Matching Passcards, while clicking on RoboForm toolbar:"
+   },
+   "Matching_Passcards_Options": {
+      "message": "Matching Passcards Options"
+   },
+   "Minimal_Number_of_digits": {
+      "message": "Minimal Number of digits"
+   },
+   "New_Folder": {
+      "message": "New Folder..."
+   },
+   "No": {
+      "message": "No"
+   },
+   "Notifications": {
+      "message": "Notifications"
+   },
+   "Number_of_symbols": {
+      "message": "Number of symbols"
+   },
+   "Password_protect_passcard": {
+      "message": "Protect new Logins with the Master Password"
+   },
+   "Paste": {
+      "message": "Paste object"
+   },
+   "Person": {
+      "message": "Person"
+   },
+   "RFJS_CAPTION_SIGNUP": {
+      "message": "Signup RoboForm Everywhere"
+   },
+   "RFJS_SIGNUP_LINK": {
+      "message": "Sign Up for RoboForm Everywhere account"
+   },
+   "Recently_Items_Count": {
+      "message": "Show Last"
+   },
+   "Recently_Used": {
+      "message": "Recently Used Logins"
+   },
+   "Recently_used_logins": {
+      "message": "Show Recently Used Logins"
+   },
+   "Rename": {
+      "message": "Rename"
+   },
+   "RoboForm_Chrome_Extension": {
+      "message": "RoboForm Lite Chrome Extension"
+   },
+   "RoboForm_Menu": {
+      "message": "RoboForm Menu"
+   },
+   "RoboForm_Opera_Extension": {
+      "message": "RoboForm Lite Opera Extension"
+   },
+   "RoboForm_Safari_Extension": {
+      "message": "RoboForm Lite Safari Extension"
+   },
+   "Roboform_Master_Password": {
+      "message": "RoboForm Master Password"
+   },
+   "Roboform_Online_Authentication": {
+      "message": "RoboForm Everywhere Authentication"
+   },
+   "Save_Options": {
+      "message": "Save Options"
+   },
+   "Search": {
+      "message": "Search"
+   },
+   "Security": {
+      "message": "Security"
+   },
+   "Select": {
+      "message": "(select)"
+   },
+   "Session_Timeout": {
+      "message": "Session Timeout"
+   },
+   "Set_as_active": {
+      "message": "Set as default"
+   },
+   "Setup_Master_Password": {
+      "message": "Setup RoboForm Master Password"
+   },
+   "Show_AutoSave_Notification_Bar": {
+      "message": "Show AutoSave Notification Bar"
+   },
+   "Show_logins_bmarks_together": {
+      "message": "Show Logins and Bookmarks together"
+   },
+   "TEXT_BACK": {
+      "message": "Back"
+   },
+   "TEXT_EMAIL_HINT": {
+      "message": "Please enter your correct Email as it is used to verify certain account actions."
+   },
+   "TEXT_NOT_MP_HINT": {
+      "message": "Your RoboForm Everywhere password \u003Cb\u003Emust differ\u003C/b\u003E from your RoboForm Master Password for security reasons."
+   },
+   "TEXT_NOT_MP_HINT1": {
+      "message": "Please \u003Cb style=\"color:red;\"\u003Ememorize\u003C/b\u003E your User ID and Password (6-30 characters) as they are required to access your RoboForm Everywhere account."
+   },
+   "The_following_information_about": {
+      "message": "The following information about"
+   },
+   "Tie_session_IP": {
+      "message": "Tie session identifier to IP address"
+   },
+   "Version": {
+      "message": "Version:"
+   },
+   "View": {
+      "message": "View"
+   },
+   "View_identity": {
+      "message": "View identity"
+   },
+   "Yes": {
+      "message": "Yes"
+   },
+   "You_have_entered_an_invalid_User_ID_and_or_Password": {
+      "message": "You have entered an invalid User ID and/or Password"
+   },
+   "add_new_folder": {
+      "message": "Folder"
+   },
+   "add_new_object": {
+      "message": "Add..."
+   },
+   "alert_delete_msg": {
+      "message": "Are you sure you want to delete"
+   },
+   "auto_logoff": {
+      "message": "Auto Logoff"
+   },
+   "bank_account": {
+      "message": "Bank Account"
+   },
+   "cache_mast_password_lbl_options": {
+      "message": "Cache Master password until logoff"
+   },
+   "cache_mast_pwd": {
+      "message": "Use this password until logoff"
+   },
+   "cancel_btn": {
+      "message": "Cancel"
+   },
+   "create_dlg_title": {
+      "message": "Create new object"
+   },
+   "create_folder": {
+      "message": "Create New Folder"
+   },
+   "create_new": {
+      "message": "Create new "
+   },
+   "create_symbol_restrict": {
+      "message": "Symbols  \\ / \u003C \u003E ? : *  | are not allowed"
+   },
+   "credit_card": {
+      "message": "Credit Card"
+   },
+   "day": {
+      "message": "day"
+   },
+   "days": {
+      "message": "days"
+   },
+   "editor_note_lbl": {
+      "message": "Note:"
+   },
+   "extName": {
+      "message": "RoboForm Lite"
+   },
+   "file_not_found": {
+      "message": "File Not Found!"
+   },
+   "filt_identities": {
+      "message": "Identities"
+   },
+   "filt_passcards": {
+      "message": "Passcards"
+   },
+   "filt_safenotes": {
+      "message": "Safe Notes"
+   },
+   "folder_already_exists": {
+      "message": "Object with the same name already exists."
+   },
+   "folder_name": {
+      "message": "Folder Name:"
+   },
+   "form_fill_empty_fields": {
+      "message": "Fill only empty fields"
+   },
+   "form_fill_section": {
+      "message": "Fill Forms"
+   },
+   "found_objects": {
+      "message": "objects were found"
+   },
+   "generate_Pass_helptext1": {
+      "message": "Password has been generated. Click \u003Cb\u003EFill\u003C/b\u003E to fill password"
+   },
+   "generate_Pass_helptext2": {
+      "message": "field in the browser."
+   },
+   "generate_Pass_helptext3": {
+      "message": " Click \u003Cb\u003ECopy\u003C/b\u003E to copy it to Clipboard. Click \u003Cb\u003EGenerate\u003C/b\u003E to"
+   },
+   "generate_Pass_helptext4": {
+      "message": "generate new password."
+   },
+   "go_back": {
+      "message": "Go Back"
+   },
+   "hour": {
+      "message": "hour"
+   },
+   "hours": {
+      "message": "hours"
+   },
+   "identity_def_tbar": {
+      "message": "(identity)"
+   },
+   "is_available_for_viewing": {
+      "message": "is available for viewing"
+   },
+   "language": {
+      "message": "en"
+   },
+   "location": {
+      "message": "Location"
+   },
+   "login_btn": {
+      "message": "Login"
+   },
+   "mast_pwd_created_ok": {
+      "message": "Master Password was created"
+   },
+   "mast_pwd_limit": {
+      "message": "Password must be between 6 and 50 symbols"
+   },
+   "master_password_confirm_error": {
+      "message": "Cannot confirm Master Password"
+   },
+   "master_password_dual": {
+      "message": "Cannot view, only the 1st part of dual MasterPassword is entered"
+   },
+   "master_password_empty": {
+      "message": "Master Password cannot be empty"
+   },
+   "master_password_not_created": {
+      "message": "Master Password is not created yet"
+   },
+   "master_password_wrong": {
+      "message": "\u003Cbr /\u003EYou have entered an invalid RoboForm Master \u003Cbr /\u003E Password. Please try again."
+   },
+   "master_password_wrong1": {
+      "message": "You have entered an invalid RoboForm Master Password. Please try again."
+   },
+   "menu_Generate_Pass": {
+      "message": "Generate Password"
+   },
+   "menu_Help": {
+      "message": "Help"
+   },
+   "menu_Identity": {
+      "message": "Identities"
+   },
+   "menu_Identity_tbr_tip_act": {
+      "message": "Click for filling fields"
+   },
+   "menu_Identity_tbr_tip_def": {
+      "message": "Set active identity"
+   },
+   "menu_Logins": {
+      "message": "Logins"
+   },
+   "menu_Logins_Tooltip": {
+      "message": "Click for opening passcards list"
+   },
+   "menu_Logoff": {
+      "message": "Logoff"
+   },
+   "menu_Logoff_Tooltip": {
+      "message": "Logout from RoboForm Everywhere account"
+   },
+   "menu_Options": {
+      "message": "Options"
+   },
+   "menu_Save": {
+      "message": "Save"
+   },
+   "menu_Tools": {
+      "message": "Tools"
+   },
+   "menu_bookmarks": {
+      "message": "Bookmarks"
+   },
+   "menu_change_pwd": {
+      "message": "Change Master Password"
+   },
+   "menu_clear_fields": {
+      "message": "Clear Fields"
+   },
+   "menu_clear_recused": {
+      "message": "Clear List"
+   },
+   "menu_contacts": {
+      "message": "Contacts"
+   },
+   "menu_country_code": {
+      "message": "Country Code"
+   },
+   "menu_expand_popup": {
+      "message": "Expand"
+   },
+   "menu_goto": {
+      "message": "Go To"
+   },
+   "menu_gotofill": {
+      "message": "Go & Fill"
+   },
+   "menu_help_about": {
+      "message": "About"
+   },
+   "menu_help_faq": {
+      "message": "Entire FAQ"
+   },
+   "menu_help_rfhome": {
+      "message": "RoboForm Home"
+   },
+   "menu_help_rfonline": {
+      "message": "RoboForm Everywhere"
+   },
+   "menu_help_support": {
+      "message": "Support"
+   },
+   "menu_help_tellfriend": {
+      "message": "Tell a Friend"
+   },
+   "menu_matching_edit": {
+      "message": "Edit"
+   },
+   "menu_matching_fill": {
+      "message": "Fill"
+   },
+   "menu_matching_fill_submit": {
+      "message": "Fill&Submit"
+   },
+   "menu_matching_fillsubmit": {
+      "message": "Fill&Submit"
+   },
+   "menu_matching_passcards": {
+      "message": "Matching Passcards"
+   },
+   "menu_national_prefix": {
+      "message": "National Prefix"
+   },
+   "menu_recently_used": {
+      "message": "Recently Used"
+   },
+   "menu_reset_fields": {
+      "message": "Reset Fields"
+   },
+   "menu_set_fields": {
+      "message": "Set Fields"
+   },
+   "menu_sync": {
+      "message": "Sync with RoboForm Everywhere"
+   },
+   "menu_user_data": {
+      "message": "Everywhere data"
+   },
+   "menu_without_prefix": {
+      "message": "Without Prefix"
+   },
+   "min": {
+      "message": "min"
+   },
+   "month": {
+      "message": "month"
+   },
+   "mp_createmp_text": {
+      "message": "To password-protect your data you have to setup\u003Cbr /\u003Emaster password"
+   },
+   "new_bookmark": {
+      "message": "Bookmark"
+   },
+   "new_bookmark_name": {
+      "message": "New Bookmark name"
+   },
+   "new_contact": {
+      "message": "Contact"
+   },
+   "new_contact_name": {
+      "message": "New Contact name"
+   },
+   "new_identity": {
+      "message": "Identity"
+   },
+   "new_identity_name": {
+      "message": "New Identity name"
+   },
+   "new_login": {
+      "message": "Login"
+   },
+   "new_passcard_name": {
+      "message": "New Passcard name"
+   },
+   "new_safenote": {
+      "message": "Safenote"
+   },
+   "new_safenote_name": {
+      "message": "New Safenote name"
+   },
+   "offer_to_save_another_pcard": {
+      "message": "Offer to save passcard if already exists for this domain"
+   },
+   "password": {
+      "message": "Password:"
+   },
+   "password_protected1": {
+      "message": "This object is password protected. Please enter"
+   },
+   "password_protected2": {
+      "message": "your RoboForm Master Password to use this object."
+   },
+   "rename_folder": {
+      "message": "Rename Folder"
+   },
+   "rename_passcard": {
+      "message": "Rename/Move"
+   },
+   "rewrite_object": {
+      "message": "OK to proceed?"
+   },
+   "save_as_bookmark": {
+      "message": "Save as Bookmark"
+   },
+   "save_close": {
+      "message": "Close"
+   },
+   "save_manual_title": {
+      "message": "Save Object"
+   },
+   "save_obj_success": {
+      "message": "Object was successfully saved."
+   },
+   "savebar_close_btn": {
+      "message": "Close"
+   },
+   "savebar_createmp_caption": {
+      "message": "RoboForm Setup Master Password"
+   },
+   "savebar_createmp_confirm": {
+      "message": "Confirm Password:"
+   },
+   "savebar_createmp_password": {
+      "message": "Master Password:"
+   },
+   "savebar_createmp_text1": {
+      "message": "To password-protect your data you have to setup"
+   },
+   "savebar_createmp_text2": {
+      "message": "Master Password"
+   },
+   "savebar_info_label": {
+      "message": "Would you like to save info as:"
+   },
+   "savebar_inhome_label": {
+      "message": "in"
+   },
+   "savebar_protect_ckbox": {
+      "message": "Password-protect"
+   },
+   "savebar_rewrite_msg1": {
+      "message": "already exists."
+   },
+   "savebar_rewrite_msg2": {
+      "message": "This will overwrite it. OK to proceed?"
+   },
+   "savebar_save_btn": {
+      "message": "Save"
+   },
+   "savebar_savesuccess_msg1": {
+      "message": "Passcard"
+   },
+   "savebar_savesuccess_msg2": {
+      "message": "was successfully saved."
+   },
+   "savebar_wrong_mp_text": {
+      "message": "Please enter your RoboForm Master Password"
+   },
+   "select_group_instance": {
+      "message": "Select Group Instance"
+   },
+   "session_expire": {
+      "message": "Your session has timed out. Please \u003Cbr /\u003Esign in again."
+   },
+   "tbar_matching": {
+      "message": "(matching)"
+   },
+   "user_id": {
+      "message": "User ID:"
+   },
+   "week": {
+      "message": "week"
+   },
+   "weeks": {
+      "message": "weeks"
+   },
+   "wrong_number_of_characters": {
+      "message": "Wrong number of characters"
+   },
+   "wrong_number_of_digits": {
+      "message": "Wrong number of digits"
+   }
+}

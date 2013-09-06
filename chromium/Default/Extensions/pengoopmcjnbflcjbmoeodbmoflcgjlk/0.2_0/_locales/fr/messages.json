@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Ajoute le bouton BlogThis! \u00E0 la barre d'outils du navigateur. Il vous permet de publier des messages sur Blogger \u00E0 partir de n'importe quelle page Web, d'un simple clic."
+   },
+   "ext_name": {
+      "message": "Blog\u00A0This!"
+   },
+   "locale": {
+      "message": "fr"
+   }
+}

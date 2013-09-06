@@ -1,0 +1,325 @@
+/*////////GENERATE PASSWORD SECTION/////////////////*/
+
+#rfpassword_generator_div{
+    padding:              0;
+    margin:               0;
+    width:                310px;
+    max-width:            310px; 
+    min-width:            310px; 
+    border:               solid 1px red;
+    background-color:     white;
+    font-family:          tahoma;
+    font-size:            11px;
+    color:                black;
+    border-radius:        8px;
+    background-color:     white;
+    display:              none;
+}
+/* main feildset*/
+#rfpassword_generator_groupbox{
+    padding:              0;
+    margin:               0;
+    width:                300px;
+    max-width:            300px;
+    min-width:            300px;
+    max-height:           350px;
+    overflow-y:           auto;
+    border:               0;
+    background-color:     white;
+    color:                black;
+    border-radius:        0px; 
+}
+#rfpwdgen_section_legend{
+    margin:               0;
+    padding:              0; 
+    color:                #123272;
+    margin-left:          16px;
+    font-weight:          bold;
+    font-family:          verdana;
+    font-size:            11px;
+}
+/*buttons table*/
+#rfpassword_generator_tablebuttons{
+    margin:               0;
+    width:                100%;
+    height:               37px;
+    min-height:           37px;
+    max-height:           37px;   
+    background:           -webkit-gradient(linear, center top, center bottom, from(RGB(245,249,252)), to(RGB(180,185,191)));
+    background-image:     -o-linear-gradient(rgb(245,249,252),rgb(180,185,191));
+    border-top:           0px solid grey;
+    border-left:          1px solid lightGrey;
+    border-right:         1px solid lightGrey;
+    border-top:           1px solid lightGrey;
+	padding:              2px 8px 0px 8px;   
+}
+#rfpassword_generator_lefttop_td{
+    margin:               0;
+    padding:              2px 0px 0px 7px;
+}
+#rfpassword_generator_centertop_td{
+    margin:               0;
+    padding:              2px 0px 0px 0px;
+}
+#rfpassword_generator_righttop_td{
+    margin:               0;
+    padding:              2px 7px 0px 0px;
+}
+/* main table*/
+#rfpassword_generator_tablemain{
+    margin:               0;
+    width:                100%;
+    border-left:          1px solid lightGrey;
+    border-right:         1px solid lightGrey;
+    padding:              7px 8px 12px 8px;
+}
+#rfpassword_generator_text_td{
+    margin:               0;
+    padding:              7px 8px 12px 8px;
+}
+/*main TABLE  with text*/
+#rfpassword_generator_texttable{
+    margin:               0;
+    padding:              0;
+    width:                100%;
+    margin-bottom:        5px;
+    padding-left:         0px;
+    font-family:          tahoma;
+    font-size:            11px;
+    color:                RGB(112,154,209);
+}
+/***PASSWORD input, indicator and td***/
+#rf_passgen_input_td{
+    margin:               0;
+    padding:              0;
+    padding:              0px 5px 0px 7px;
+}
+#rf_passgen_newpassw_txt{
+    padding:              0;
+    margin:               0;
+    width:                99%; 
+    height:               23px;
+    min-height:           23px;
+    max-height:           23px;
+    font-family:          verdana;
+    font-weight:          normal;
+    font-size:            14px;
+    border-radius:        3px;
+    border:               solid 1px grey;
+    margin-bottom:        5px;
+    margin-top:           4px;
+    text-indent:          10px;
+    color:                black;
+    background-color:     white;
+}
+#rf_passgen_strength_ind_td{
+    padding-left:         0px;
+}
+/*** STRENGTH INDICATOR divs***/
+#rf_passgen_strength_div_def{
+    margin:               0;
+    padding:              0;
+    text-align:           left;
+    height:               8px;
+    border:               1px solid grey;
+    width:                200px;
+    background-image:     url(images/pwd_strength_def1.png);
+    margin-bottom:        8px;
+    border-radius:        3px;
+    margin-left:          35px;
+}
+#rf_passgen_strength_div_real{
+    margin:               0;
+    padding:              0;
+    background-image:     url(images/pwd_strength_real.png);
+    height:               8px;
+    width:                50px;
+    line-height:          1px;
+    font-size:            1px;
+    border:               0;
+    border-right:         1px solid lightgrey;
+    border-radius:        3px;
+}
+/***Copy to clipboard ***/
+#rf_passgen_clipchk_td{
+    padding:              0;
+    margin:               0;
+    display:              block;
+}
+#rf_pwd_generate_copycliboardp_chk{
+    margin:               0;
+    padding:              0;
+}
+#pwd_generate_copy_lbl{
+    margin:               0;
+    padding:              0;
+    color:                black;
+    font-size:            11px;
+    font-family:          verdana;
+    margin-left:          4px;
+}
+/* advanced options table*/
+#rfpassword_generator_advoptionstable{
+    margin:               0;
+    width:                100%;
+    border:               1px solid grey;
+    background:           -webkit-gradient(linear, center top, center bottom, from(RGB(239,239,247)), to(RGB(222,223,231)));
+    padding:              15px 15px 4px 20px;
+    background-image:     -o-linear-gradient(rgb(239,239,247),rgb(222,223,231));
+}
+/***Number of symbols, digits ***/
+#rf_passgen_numsymb_td{
+    margin:               0;
+    padding:              0;
+    padding-top:          10px;
+    padding-left:         20px;
+}
+#rf_passgen_number1_td{
+    margin:               0;
+    padding:              0;
+    padding-top:          10px;
+    padding-right:        16px;
+}
+#rf_passgen_numdig_td{
+    margin:               0;
+    padding:              0;
+    padding-left:         20px;
+}
+#rf_passgen_number2_td{
+    margin:               0;
+    padding:              0;
+    padding-right:        16px;
+}
+
+#rf_pwd_generate_number_digits,
+#rf_pwd_generate_number_symbols{
+    margin:               0;
+    padding:              0;
+    width:                20px;
+    height:               14px;
+    min-height:           16px;
+    max-height:           16px;
+    font-size:            11px;
+}
+#rf_pwd_generate_number_symbols{
+    margin-top:           4px;
+    margin-bottom:        3px;
+}
+/***A-Z Checkboxes***/
+#rf_passgen_az_td{
+    margin:               0;
+    padding:              0;
+    padding-left:         20px;
+}
+#rf_pwd_generate_digits_chk,
+#rf_pwd_generate_lower_chk,
+#rf_pwd_generate_upper_chk{
+    margin:               0;
+    padding:              0;
+    margin-top:           5px;
+    margin-left:          0px;
+}
+#rf_passgen_digits_lbl,
+#rf_passgen_lower_lbl,
+#rf_passgen_upper_lbl{
+    margin:               0;
+    padding:              0;
+    color:                black;
+    font-size:            11px;
+    font-family:          verdana;
+    margin-left:          2px;
+    margin-right:         8px;
+}
+/***SPECIAL SYMBOLS Checkboxe and TEXTBOX***/
+#rf_pwd_generate_specialsymb_chk{
+    margin:               0;
+    padding:              0;
+    margin-top:           5px;
+    margin-left:          0px;
+}
+#rf_pwd_generate_special_chars{
+    padding:              0;
+    margin:               0;
+    font-family:          verdana;
+    font-size:            11px;
+    color:                black;
+    height:               15px;
+    min-height:           15px;
+    max-height:           15px;
+    width:                87px;
+    max-width:            87px;
+    min-width:            87px;
+    margin-bottom:        3px;
+   
+}
+/*number of characters*/
+#rf_pwd_generate_number_digits{
+    margin-bottom:        2px;
+    margin-top:           2px;
+}
+#pwd_number_smbl_lbl,
+#rf_passgen_numernumber_lbl{
+    margin:               0;
+    padding:              0;
+    color:                black;
+    font-size:            11px;
+    font-family:          verdana;
+    margin-left:          0px;
+}
+#pwd_number_smbl_lbl{
+    margin-top:           3px;
+}
+#rf_passgen_numernumber_lbl{
+    color:                black;
+}
+/*error message*/
+#err_passgener_msg{
+    margin:               0;
+    padding:              0;
+    color:				  red;
+    font-size:			  8px;
+    font-family:          tahoma;
+    height:               16px;
+    min-height:           16px;
+    max-height:           16px;     
+}
+/* BUTTONS */
+#rf_passgen_generate_btn,
+#rf_passgen_copy_btn,
+#rf_passgen_fill_btn{
+    margin:               0;
+    padding:              0;
+    width:                86px;
+    min-width:            86px;
+    max-width:            86px;
+    font-family:          verdana;
+    font-weight:          normal;
+    font-size:            12px;
+    font-style:           normal;
+    font-variant:         normal;
+    height:               21px;
+    min-height:           21px;
+    max-height:           21px;
+    border-radius:        5px; 
+    text-align:		      left;         
+    text-indent:          26px;  
+}
+#rf_passgen_fill_btn{
+    background:           url("/images/match_fill_forms.png") no-repeat 5px 2px; 
+    background-color:     White;
+}
+#rf_passgen_copy_btn{
+    background:           url("/images/gen_pass_copy16.png") no-repeat 5px 2px; 
+    background-color:     White;
+}
+#rf_passgen_generate_btn{
+    width:                105px;
+    min-width:            105px;
+    max-width:            105px;
+    background:           url("/images/pass_gen16.png") no-repeat 5px 1px; 
+    background-color:     White;
+}
+/************************* END SECTION ****************************************/
+
+
+

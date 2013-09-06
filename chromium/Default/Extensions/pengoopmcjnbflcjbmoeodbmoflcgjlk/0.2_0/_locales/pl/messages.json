@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Dodaje przycisk Blog This! do paska narz\u0119dzi przegl\u0105darki, umo\u017Cliwiaj\u0105c publikowanie na blogu w Bloggerze w dowolnej witrynie za pomoc\u0105 jednego klikni\u0119cia."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "pl"
+   }
+}

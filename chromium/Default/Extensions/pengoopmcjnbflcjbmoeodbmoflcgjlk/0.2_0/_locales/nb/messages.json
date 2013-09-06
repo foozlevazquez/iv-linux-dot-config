@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Legger til en BlogThis!-knapp i nettleserens verkt\u00F8yrad som lar deg poste p\u00E5 din Blogger-blogg fra alle nettsider med ett enkelt klikk."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "no"
+   }
+}

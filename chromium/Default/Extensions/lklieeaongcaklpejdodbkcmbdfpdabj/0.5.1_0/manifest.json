@@ -1,0 +1,18 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/style.css" ],
+      "js": [ "js/jquery-1.6.2.min.js", "js/inject.js" ],
+      "matches": [ "*://*.google.com/hangouts/*" ]
+   } ],
+   "description": "Realtime teamwork on your thoughts, ideas and documents; together with your pals in a Google+ Hangout.",
+   "icons": {
+      "128": "appicon_128x128.png",
+      "48": "appicon_48x48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdI/ryNnDlk/YR8oKm5miHdNCenr95sflbx6fDU/6CTMM7TAv8hLuWUlK11XPkcZPiCo9vli3zmYTo3bTtwgc/+BPODMXqllic+zWqv9JJoTiMHdu+WILixNKtgHwWmVX5gQiXmtf9F3eh7reOv2CLrMplwajuXFWmaQG1Ktd0ywIDAQAB",
+   "manifest_version": 2,
+   "name": "Conceptboard for Google+ Hangouts",
+   "permissions": [ "*://*.conceptboard.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.5.1"
+}

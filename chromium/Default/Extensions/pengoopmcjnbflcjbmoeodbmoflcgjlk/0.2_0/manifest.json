@@ -1,0 +1,20 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "blogger_32.png",
+      "default_title": "__MSG_ext_name__"
+   },
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "blogger_128.png",
+      "16": "blogger_16.png",
+      "32": "blogger_32.png",
+      "48": "blogger_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyq+1qiXYH+0gSUsBjggJK1zoqCsnBKDlaaA4EAufKfct0fUD0mBilySCOYdOiCep0klg7IZ9LNXQq5PIk33CZrsYAoNlmFA7nyLMKG1gEcBHB6SAV37OWIZBOq9wq7TD98LsUqGwf79upH0NiCnSdkhXIfUQays2EKqdGScQiFwIDAQAB",
+   "name": "__MSG_ext_name__",
+   "permissions": [ "http://*/*", "https://*/*", "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.2"
+}

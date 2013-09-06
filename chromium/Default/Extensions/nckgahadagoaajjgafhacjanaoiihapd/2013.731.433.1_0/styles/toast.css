@@ -1,0 +1,151 @@
+/**
+ * Copyright 2010 Google Inc. All Rights Reserved.
+ * @Author ivaylobakalov@google.com (Ivaylo Bakalov)
+ */
+
+ /* -- Tasty toast styles -------------------- */
+.toast-body {
+  background: #f5f5f5;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  max-width: 300px;
+  max-height: 160px;
+  overflow: hidden;
+}
+
+.toast-main-container {
+  margin: 0;
+  padding: 9px 10px 10px 10px;
+  min-height: 48px;
+  border-top: 1px solid #fff;
+}
+
+.toast-main-buttons-container {
+  padding: 16px 17px 65px 17px;
+  min-height: 78px;
+}
+
+.toast-icon-container {
+  float: left;
+  overflow: hidden;
+}
+
+.toast-icon-container,
+.toast-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+
+.toast-main-buttons-container > .toast-icon-container,
+.toast-main-buttons-container > .toast-icon-container > .toast-icon {
+  width: 78px;
+  height: 78px;
+  margin-right: 17px;
+}
+
+.toast-title {
+  font: bold 13px arial;
+  color: #008fff;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 16px;
+}
+
+.toast-main-buttons-container > .toast-title {
+  font: bold 16px arial;
+  height: 20px;
+}
+
+.toast-subtitle {
+  font: 11px arial;
+  color: #989898;
+  padding-left: 5px;
+}
+
+.toast-main-buttons-container > .toast-subtitle {
+  font: 12px arial;
+}
+
+.toast-summary {
+  color: #333;
+  font: 13px arial;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 16px;
+}
+
+.toast-main-buttons-container > .toast-summary {
+  font: 14px arial;
+  color: #808080;
+}
+
+.toast-details {
+  color: #333;
+  font: 13px arial;
+  max-height: 96px;
+  overflow: hidden;
+}
+
+
+.toast-main-buttons-container > .toast-details {
+  padding-bottom: 17px;
+  font: 14px arial;
+  color: #808080;
+}
+
+.toast-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 10px 10px 17px;
+  background: -webkit-linear-gradient(top, #dcdcdc, #F0F0F0 3px, #F0F0F0);
+  background: linear-gradient(top, #dcdcdc, #F0F0F0 3px, #F0F0F0);
+}
+
+/* Buttons */
+.toast-button {
+  display: inline-block;
+  font: bold 11px arial;
+  border-radius: 2px;
+  float: right;
+  padding: 6px 12px;
+  margin: 0 10px 0 0;
+  min-width: 78px;
+  -webkit-transition: all 0.218s ease;
+  background:-webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  border: solid 1px #d9d9d9;
+  color: #666;
+}
+
+.toast-button:hover {
+  border: solid 1px #c0c0c0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.toast-button:active {
+  background: -webkit-linear-gradient(top, #f6f6f6, #f1f1f1);
+  border: solid 1px #bbb;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+  color: #313131;
+}
+
+.toast-highlighted-button {
+  background: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: solid 1px #3079ed;
+  color: #fff;
+}
+
+.toast-highlighted-button:hover {
+  border: solid 1px #2f5bb7;
+  color: #fff;
+}
+
+.toast-highlighted-button:active {
+  background: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  border: solid 1px #2f5bb7;
+  color: #fff;
+}

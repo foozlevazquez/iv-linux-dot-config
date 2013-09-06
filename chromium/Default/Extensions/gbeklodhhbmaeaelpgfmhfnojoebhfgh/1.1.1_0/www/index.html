@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <!-- Change this if you want to allow scaling -->
+    <meta name="viewport" content="user-scalable=no,width=device-width"/>
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Fill the Gap</title>
+    <!-- json2 is needed for pre-iOS 4 apps! -->
+    <script type="text/javascript" charset="utf-8" src="scripts/json2.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/buzz.js"></script>
+    
+    <script type="text/javascript" charset="utf-8">
+        function onBodyLoad() {
+            onDeviceReady();
+        }
+        function onPause() {
+        	Exercises.playSound("sounds/NO_SOUND.mp3");
+        }
+        function onDeviceReady() {
+
+            // Prevent dragging:
+            document.addEventListener("touchmove", preventScrolling, false);
+
+            
+
+            // initialize sound
+            Exercises.playSound("sounds/NO_SOUND.mp3");
+
+            // fill in about screen
+            document.getElementById("aboutVersion").innerHTML = "Version: " + Exercises.version;
+            //document.getElementById("aboutPlatform").innerHTML = "Platform: " + device.platform + " " + device.version;
+
+ 
+            Exercises.autoDetectScreenResolution();
+            Exercises.playMusic("sounds/music.mp3");
+            
+        }
+
+        function preventScrolling(e) {
+            e.preventDefault();
+        }
+
+        // Warning: timeout needed to make it stable. Alert on rotation crashes the iPad!
+        function updateOrientation(e) {
+            setTimeout(function () {
+                Exercises.changeOrientation(e.orientation);
+            }, 0);
+        }
+        
+        window.onresize = function() {
+        	  Exercises.autoDetectScreenResolution();
+        	
+        }
+        
+    </script>
+
+
+    <script type="text/javascript" charset="utf-8" src="scripts/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/exercises.js"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: "Andika Basic";
+            src: url("Andika Basic.ttf");
+            font-weight: normal;
+            font-style: normal;
+		}
+        @font-face {
+            font-family: "MicrogrammaD BoldExte";
+            src: url("MicrogrammaDBolExt.svg#MicrogrammaDBolExt") format("svg");
+            font-weight: normal;
+            font-style: normal;
+		}
+        * {
+            font-family: "Andika Basic";
+            cursor: pointer;
+
+            -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+            -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+            -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+        }
+        body {
+            background-color: black;
+            margin: 0;
+        }
+        .background4 #choice5 {
+            display: none;
+        }
+
+        .background3 #choice4 {
+            display: none;
+        }
+
+        .background3 #choice5 {
+            display: none;
+        }
+
+        .background2 #choice3 {
+            display: none;
+        }
+
+        .background2 #choice4 {
+            display: none;
+        }
+
+        .background2 #choice5 {
+            display: none;
+        }
+    </style>
+
+     
+    <link id="preferredStylesheet" rel="stylesheet" href="styles/1024x600.css" />
+    
+</head>
+<body onload="onBodyLoad();" ondblclick="return false;">
+    <script type="text/javascript" charset="utf-8">
+        setTimeout(Exercises.start, 0);
+    </script>
+
+    <div style="position: absolute; left: -5000px; top: -5000px; z-index: -10;">
+        <img id="nextExerciseImage" />
+        <img id="cacheImage" />
+        
+    </div>
+    <div id="exercise" class="background" style="display: none;" ondblclick="return false;">
+        <span id="exerciseTitle"></span>
+        <img id="answerImage" />
+        <span id="question"></span>
+        <span id="answer"></span>
+        <div id="homeButton" onclick="Exercises.showHome();"></div>
+        <span id="continue">Tap to continue</span>
+        <div id="continueButton" onclick="Exercises.continueExercise();"></div>
+        <div id="choice1" class="choice" onclick="Exercises.checkAnswer(this);"></div>
+        <div id="choice2" class="choice" onclick="Exercises.checkAnswer(this);"></div>
+        <div id="choice3" class="choice" onclick="Exercises.checkAnswer(this);"></div>
+        <div id="choice4" class="choice" onclick="Exercises.checkAnswer(this);"></div>
+        <div id="choice5" class="choice" onclick="Exercises.checkAnswer(this);"></div>
+        <img id="dog" src="images/smudge_fidgetting_sm_flipped.gif" />
+        <img id="dogAnimation1" src="images/compass_anim0-0.png" class="dogAnimation" />
+        <img id="dogAnimation2" src="images/compass_anim1-0.png" class="dogAnimation" />
+        <img id="dogAnimation3" src="images/compass_anim2-0.png" class="dogAnimation" />
+        <img id="dogAnimation4" src="images/compass_anim3-0.png" class="dogAnimation" />
+        
+        
+        <div id="soundButton" onclick="Exercises.playSound(this.soundSrc);"></div>
+    </div>
+    <div id="home" ondblclick="return false;">
+        <div id="exercise1" class="exercisebutton" onclick="Exercises.changeExercise(0);"></div>
+        <div id="exercise2" class="exercisebutton" onclick="Exercises.changeExercise(1);"></div>
+        <div id="exercise3" class="exercisebutton" onclick="Exercises.changeExercise(2);"></div>
+        <div id="exercise4" class="exercisebutton" onclick="Exercises.changeExercise(3);"></div>
+        <div id="exercise5" class="exercisebutton" onclick="Exercises.changeExercise(4);"></div>
+        <div id="exercise6" class="exercisebutton" onclick="Exercises.changeExercise(5);"></div>
+        <div id="exercise7" class="exercisebutton" onclick="Exercises.changeExercise(6);"></div>
+        <div id="exercise8" class="exercisebutton" onclick="Exercises.changeExercise(7);"></div>
+        <div id="wordlength4" class="wordlengthbutton" onclick="Exercises.setWordLength(4);"></div>
+        <div id="wordlength6" class="wordlengthbutton" onclick="Exercises.setWordLength(6);"></div>
+        <div id="wordlength8" class="wordlengthbutton" onclick="Exercises.setWordLength(8);"></div>
+        <div id="wordlength100" class="wordlengthbutton selectedwordlengthbutton" onclick="Exercises.setWordLength(100);"></div>
+        <div id="instructionsButton" onclick="Exercises.openInstructions();"></div>
+        <div id="aboutButton" onclick="Exercises.openAbout();"></div>
+        <div id="marksButton" onclick="Exercises.openMarks();"></div>
+        <img id="homeSmudge" src="images/smudge_fidgetting_sm-1.gif" />
+    </div>
+    <div id="instructions" style="display: none;" class="page1">
+        <div id="instructionsCloseButton" onclick="Exercises.closeInstructions();"></div>
+<!--         <div id="instructionsPreviousButton" onclick="Exercises.previousInstructionPage();"></div> -->
+<!--         <div id="instructionsNextButton" onclick="Exercises.nextInstructionPage();"></div> -->
+    </div>
+    <div id="about" style="display: none;">
+        <div id="aboutVersion"></div>
+        
+        <div id="aboutCloseButton" onclick="Exercises.closeAbout();"></div>
+        <div id="aboutMagmentisButton" onclick="Exercises.openMagmentis();"></div>
+    </div>
+    <div id="marks" style="display: none;" onclick="Exercises.closeMarks();">
+        <div id="markswordslength">
+            <div id="markswordslengthtab100" class="markswordslengthtab selected" onclick="Exercises.switchMarksTab(event, 100);"><span class="markswordslengthtablabel">Any</span></div><div id="markswordslengthtab4" class="markswordslengthtab" onclick="Exercises.switchMarksTab(event, 4);"><span class="markswordslengthtablabel">4</span></div><div id="markswordslengthtab6" class="markswordslengthtab" onclick="Exercises.switchMarksTab(event, 6);"><span class="markswordslengthtablabel">6</span></div><div id="markswordslengthtab8" class="markswordslengthtab" onclick="Exercises.switchMarksTab(event, 8);"><span class="markswordslengthtablabel">8</span></div><div id="markswordslengthtaball" class="markswordslengthtab" onclick="Exercises.switchMarksTab(event, 'all');"><span class="markswordslengthtablabel">All</span></div>
+        </div>
+        <table id="markstable" border="0" cellpadding="5" cellspacing="0">
+            <tbody>
+                <tr>
+                    <th class="markslabel"></th>
+                    <th class="markslabel">Correct</th>
+                    <th class="markslabel">Incorrect</th>
+                    <th class="markslabel">Total</th>
+                </tr>
+            </tbody>
+        </table>
+        <div id="markscontinuelabel">Tap to continue</div>
+    </div>
+</body>
+</html>

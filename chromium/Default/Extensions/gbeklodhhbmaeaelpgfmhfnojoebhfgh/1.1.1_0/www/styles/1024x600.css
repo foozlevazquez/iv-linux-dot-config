@@ -1,0 +1,724 @@
+
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+div {
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+#root { 
+	left: 0px;
+	top: 0px;
+	width: 1024px;
+	height: 600px;
+}
+
+#exercise {
+    background: url('../images/gamebg.png') no-repeat;
+    width: 1024.0px;
+    height: 600.0px;
+}
+
+.portrait #exercise {
+    background: black url('../images/fillgapbgportrait.png') no-repeat !important;
+    width: 768.0px !important;
+    height: 800.0px !important;
+}
+
+.choice {
+    background: transparent url('../images/signpost.png') no-repeat;
+    border: 0;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    width: 121.0px;
+    height: 143.75px;
+    text-align: center;
+    top: 435.15625px;
+    padding-top: 10px;
+}
+
+.portrait .choice {
+    top: 622.65625px !important;
+}
+
+.wrongLetter {
+    display: none;
+}
+
+#choice1 {
+    left: 270.0px;
+}
+
+#choice2 {
+    left: 412.0px;
+}
+
+#choice3 {
+    left: 550.0px;
+}
+
+#choice4 {
+    left: 690.0px;
+}
+
+#choice5 {
+    left: 830.0px;
+}
+
+.portrait #choice1 {
+    left: 140.0px !important;
+}
+
+.portrait #choice2 {
+    left: 265.0px !important;
+}
+
+.portrait #choice3 {
+    left: 390.0px !important;
+}
+
+.portrait #choice4 {
+    left: 515.0px !important;
+}
+
+.portrait #choice5 {
+    left: 640.0px !important;
+}
+
+#exerciseTitle {
+    color: blue;
+    font-size: 31.25px;
+    position: absolute;
+    left: 270.0px;
+    top: 67px;
+    width: 385.0px;
+}
+
+.portrait #exerciseTitle {
+    left: 150.0px !important;
+    top: 240.5px !important;
+}
+
+#question {
+    color: blue;
+    font-size: 31.25px;
+    font-weight: bold;
+    position: absolute;
+    left: 430.0px;
+    top: 207px;
+    width: 400.0px;
+}
+
+.portrait #question {
+    left: 290.0px !important;
+    top: 421.875px !important;
+}
+
+#answerImage {
+    border: 0;
+    position: absolute;
+    left: 280.0px;
+    top: 180.0px;
+    
+}
+
+.portrait #answerImage {
+    left: 160.0px !important;
+    top: 414.0625px !important;
+}
+
+#answer {
+    color: red;
+    font-size: 31.25px;
+    font-weight: bold;
+    position: absolute;
+    left: 410.0px;
+    top: 207.8125px;
+    display: none;
+    width: 400.0px;
+}
+
+.portrait #answer {
+    left: 290.0px !important;
+    top: 421.875px !important;
+}
+
+#homeButton {
+    position: absolute;
+    width: 70.0px;
+    height: 54.6875px;
+    left: 745.0px;
+    top: 75px;
+}
+
+.portrait #homeButton {
+    left: 628.0px !important;
+    top: 308.59375px !important;
+}
+
+#home {
+	left: 0px;
+	top: 0px;
+    width: 1024.0px;
+    height: 600.0px;
+    background: url('../images/homepage.png') no-repeat;
+}
+
+.portrait #home {
+    width: 768.0px !important;
+    height: 800.0px !important;
+    background: url('../images/homescreenportrait.png') no-repeat !important;
+}
+
+#homeSmudge {
+    position: absolute;
+    z-index: 2;
+    left: 880.0px;
+    top: 492.1875px;
+    width: 123.0px;
+    height: 93.75px;
+}
+
+.portrait #homeSmudge {
+    left: 620.0px !important;
+    top: 691.40625px !important;
+}
+
+#marksButton {
+    position: absolute;
+    width: 150.0px;
+    height: 125.0px;
+    top: 7.8125px;
+    left: 700.0px;
+}
+
+.portrait #marksButton {
+    top: 144.53125px;
+    left: 520.0px;
+}
+
+#continue {
+    color: blue;
+    font-size: 19.53125px;
+    position: absolute;
+    font-style: italic;
+    width: 200.0px;
+    left: 410.0px;
+    top: 348.125px;
+    display: none;
+}
+
+.portrait #continue {
+    left: 290.0px;
+    top: 500.0px;
+}
+
+#continueButton {
+    width: 1004.0px;
+    height: 587px;
+    border: 0;
+    background-color: transparent;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.portrait #continueButton {
+    width: 726.0px !important;
+    height: 784.375px !important;
+}
+
+#dog {
+    position: absolute;
+    left: 50.0px;
+    top: 485.9375px;
+    width: 123.0px;
+    height: 93.75px;
+}
+
+.dogAnimation {
+    display: none;
+    position: absolute;
+}
+
+#dogAnimation1 {
+    width: 200.0px;
+    height: 101.25001px;
+    top: 335.9375px;
+    left: 830.0px;
+}
+
+.portrait #dogAnimation1 {
+    top: 398.4375px !important;
+    left: 420.0px !important;
+}
+
+#dogAnimation2 {
+    width: 137.6px;
+    height: 93.75px;
+    top: 339.84375px;
+    left: 870.0px;
+}
+
+.portrait #dogAnimation2 {
+    top: 414.0625px !important;
+    left: 470.0px !important;
+}
+
+#dogAnimation3 {
+    width: 193.0px;
+    height: 67.5px;
+    top: 363.28125px;
+    left: 835.0px;
+}
+
+.portrait #dogAnimation3 {
+    top: 442.1875px !important;
+    left: 430.0px !important;
+}
+
+#dogAnimation4 {
+    width: 149.6px;
+    height: 93.75px;
+    top: 343.75px;
+    left: 870.0px;
+}
+
+.portrait #dogAnimation4 {
+    top: 414.0625px !important;
+    left: 450.0px !important;
+}
+
+#dog1 {
+    position: absolute;
+    left: 50.0px;
+    top: 485.9375px;
+}
+
+#dog2 {
+    position: absolute;
+    left: 50.0px;
+    top: 485.9375px;
+    display: none;
+}
+
+#dog3 {
+    position: absolute;
+    left: 50.0px;
+    top: 485.9375px;
+    display: none;
+}
+
+.portrait #dog {
+    left: 50.0px !important;
+    top: 689.0625px !important;
+}
+
+.portrait #dog1 {
+    left: 50.0px !important;
+    top: 689.0625px !important;
+}
+
+.portrait #dog2 {
+    left: 50.0px !important;
+    top: 689.0625px !important;
+}
+
+.portrait #dog3 {
+    left: 50.0px !important;
+    top: 689.0625px !important;
+}
+
+#soundButton {
+    width: 70.0px;
+    height: 54.6875px;
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    left: 745.0px;
+    top: 325.78125px;
+}
+
+.portrait #soundButton {
+    left: 628.0px !important;
+    top: 489.84375px !important;
+}
+
+.exercisebutton {
+    position: absolute;
+}
+
+#exercise1 {
+    width: 270.0px;
+    height: 42.96875px;
+    left: 640.0px;
+    top: 136.71875px;
+
+}
+
+.portrait #exercise1 {
+    left: 420.0px !important;
+    top: 273.4375px !important;
+}
+
+#exercise2 {
+    width: 240.0px;
+    height: 46.875px;
+    left: 710.0px;
+    top: 183.59375px;
+}
+
+.portrait #exercise2 {
+    left: 510.0px !important;
+    top: 324.21875px !important;
+}
+
+#exercise3 {
+    width: 250.0px;
+    height: 46.875px;
+    left: 620.0px;
+    top: 234.375px;
+}
+
+.portrait #exercise3 {
+    left: 400.0px !important;
+    top: 375.0px !important;
+}
+
+#exercise4 {
+    width: 240.0px;
+    height: 46.875px;
+    left: 685.0px;
+    top: 289.0625px;
+}
+
+.portrait #exercise4 {
+    left: 485.0px !important;
+    top: 429.6875px !important;
+}
+
+#exercise5 {
+    width: 290.0px;
+    height: 46.875px;
+    left: 595.0px;
+    top: 339.84375px;
+}
+
+.portrait #exercise5 {
+    left: 375.0px !important;
+    top: 480.46875px !important;
+}
+
+#exercise6 {
+    width: 225.0px;
+    height: 46.875px;
+    left: 710.0px;
+    top: 390.625px;
+}
+
+.portrait #exercise6 {
+    left: 510.0px !important;
+    top: 531.25px !important;
+}
+
+#exercise7 {
+    width: 215.0px;
+    height: 50.78125px;
+    left: 595.0px;
+    top: 441.40625px;
+}
+
+.portrait #exercise7 {
+    left: 375.0px !important;
+    top: 582.03125px !important;
+}
+
+#exercise8 {
+    width: 150.0px;
+    height: 50.78125px;
+    left: 680.0px;
+    top: 503.90625px;
+}
+
+.portrait #exercise8 {
+    left: 480.0px !important;
+    top: 640.625px !important;
+}
+
+.wordlengthbutton {
+    width: 100.0px;
+    height: 31.25px;
+    background: url('../images/radiooff.png') no-repeat left;
+    position: absolute;
+    z-index: 2;
+    left: 90.0px;
+}
+
+#wordlength4 {
+    top: 202px;
+}
+
+#wordlength6 {
+    top: 251px;
+}
+
+#wordlength8 {
+    top: 296px;
+}
+
+#wordlength100 {
+    top: 340px;
+}
+
+.selectedwordlengthbutton {
+    background: url('../images/radioon.png') no-repeat left !important;
+}
+
+#instructions {
+    position: absolute;
+    background: url('../images/instructions.png') no-repeat;
+    z-index: 4;
+    background-color: white;
+    left: 0;
+    top: 0px;
+    width: 1024.0px;
+    height: 600.0px;
+}
+
+.portrait #instructions {
+    width: 768.0px !important;
+    height: 800.0px !important;
+}
+
+#about * {
+    font-family: "MicrogrammaD BoldExte";
+    font-size: 18.75px;
+    color: #05bae7;
+}
+
+#about {
+    position: absolute;
+    background: url('../images/about.png') no-repeat;
+    z-index: 4;
+    left: 0;
+    top: 0;
+    width: 1024.0px;
+    height: 600.0px;
+}
+
+.portrait #about {
+    width: 768.0px !important;
+    height: 800.0px !important;
+    background: url('../images/abouttemplateportrait.png') no-repeat !important;
+}
+
+#aboutCloseButton {
+    position: absolute;
+    left: 50.0px;
+    top: 539.0625px;
+    width: 70.0px;
+    height: 36.71875px;
+}
+
+.portrait #aboutCloseButton {
+    left: 30.0px !important;
+    top: 679.6875px !important;
+}
+
+#aboutMagmentisButton {
+    position: absolute;
+    left: 695.0px;
+    top: 539.0625px;
+    width: 275.0px;
+    height: 36.71875px;
+}
+
+.portrait #aboutMagmentisButton {
+    left: 457.0px !important;
+    top: 679.6875px !important;
+}
+
+#aboutVersion {
+    position: absolute;
+    left: 192.0px;
+    top: 328.125px;
+    width: 500.0px;
+    height: 23.4375px;
+}
+
+.portrait #aboutVersion {
+    left: 65.0px !important;
+    top: 437.5px !important;
+}
+
+#aboutPlatform {
+    position: absolute;
+    left: 192.0px;
+    top: 367.1875px;
+    width: 600.0px;
+    height: 23.4375px;
+}
+
+.portrait #aboutPlatform {
+    left: 65.0px !important;
+    top: 476.5625px !important;
+}
+
+#marks {
+    position: absolute;
+    z-index: 4;
+    background: url('../images/smudgemarks.png') no-repeat;
+    left: 0;
+    top: 0;
+    width: 1024.0px;
+    height: 600.0px;
+    text-align: center;
+}
+
+.portrait #marks {
+    background: url('../images/smudgemarksportraitbg.png') no-repeat !important;
+    width: 768.0px !important;
+    height: 800.0px !important;
+}
+
+#marks .marklabel {
+    text-align: left;
+}
+
+#marks .mark {
+    text-align: center;
+    width: 50.0px;
+}
+
+#markswordslength {
+    background-color: transparent;
+    border: 0;
+    position: absolute;
+    top: 128.125px;
+    left: 225.0px;
+    font-size: 13.28125px;
+}
+
+.olderwebkit #markswordslength {
+    left: 221.0px !important;
+}
+
+.portrait #markswordslength {
+    left: 140.0px !important;
+    top: 292.1875px !important;
+}
+
+.olderwebkit.portrait #markswordslength {
+    left: 136.0px !important;
+}
+
+.markswordslengthtab {
+    display: inline-block;
+    width: 100.0px;
+    height: 38px;
+    background: url('../images/tab.png') no-repeat;
+    vertical-align: middle;
+}
+
+.markswordslengthtablabel {
+    position: relative;
+    top: 6px;
+}
+
+.markswordslengthtab.selected {
+    background: url('../images/tabselected.png') no-repeat;
+}
+
+#markstable {
+    position: absolute;
+    z-index: 2;
+    width: 500.0px;
+    left: 225.0px;
+    top: 156.25px;
+    font-size: 15px;
+    border-left: 2px solid #cbe4ff;
+    border-right: 2px solid #cbe4ff;
+    border-bottom: 2px solid #cbe4ff;
+    background-color: #00e7fe;
+    padding: 15px;
+    -webkit-border-bottom-left-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+}
+
+.portrait #markstable {
+    left: 140.0px !important;
+    top: 320.3125px !important;
+}
+
+#markstable th {
+    background-color: #007bdc;
+    color: white;
+}
+
+#markstable .odd {
+    background-color: #9ae4ec !important;
+}
+
+#markstable .even {
+    background-color: #d9f5f8 !important;
+}
+
+.marksproblemexercise, .marksproblemexercise td {
+    background-color: red !important;
+}
+
+#markscontinuelabel {
+    position: absolute;
+    left: 300.0px;
+    top: 468.75px;
+    width: 400.0px;
+    font-size: 11.71875px;
+}
+
+.portrait #markscontinuelabel {
+    left: 185.0px !important;
+    top: 640.625px !important;
+}
+
+#instructionsButton {
+    width: 200.0px;
+    height: 27.34375px;
+    position: absolute;
+    left: 40.0px;
+    top: 536px;
+}
+
+#instructionsCloseButton {
+    position: absolute;
+    z-index: 5;
+    height: 48px;
+    width: 72px;
+    top: 552px;
+    left: 27px;
+}
+
+
+.portrait #instructionsButton {
+    left: 40.0px !important;
+    top: 746.875px !important;
+}
+
+#aboutButton {
+    width: 137.0px;
+    height: 27.34375px;
+    position: absolute;
+    left: 275.0px;
+    top: 536px;
+}
+
+.portrait #aboutButton {
+    left: 275.0px !important;
+    top: 746.875px !important;
+}

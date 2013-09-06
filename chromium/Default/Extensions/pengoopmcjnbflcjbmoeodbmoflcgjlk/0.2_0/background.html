@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+@fileoverview Serves as the background page for the Blog-This extension.
+@author prateekk@google.com (Prateek Khurana).
+-->
+<html>
+<head>
+<script>
+var WINDOW_STYLE = 'scrollbars=yes,width=475,height=300,top=175,left=75,' +
+                       'status=yes,resizable=yes';
+var FORM_NAME = 'bloggerForm';
+
+/**
+ * Listener for browser action
+ * @param {Function}  Callback to execute content script
+ */
+chrome.browserAction.onClicked.addListener(function(tab) {
+    chrome.tabs.executeScript(
+      tab.id,
+      { file : 'content_script.js' });
+  });
+
+/**
+ * Listens for request to open a Blogger window.
+ * @param {Function}  Callback to open a Blogger window.
+ */
+chrome.extension.onRequest.addListener(
+  function(request, sender, sendResponse) {
+    if (request.message == 'openBloggerWindow') {
+      var request_form = document.createElement('form');
+      request_form.setAttribute('method', 'post');
+      request_form.setAttribute('action', request.url);
+      document.body.appendChild(request_form);
+      window.open(null, FORM_NAME, WINDOW_STYLE);
+      request_form.target = FORM_NAME;
+      request_form.submit();
+      sendResponse();
+    }
+});
+</script>
+</head>
+<body>
+</body>
+</html>

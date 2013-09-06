@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "Lis\u00E4\u00E4 BlogThis!-painikkeen selaimen ty\u00F6kalupalkkiin. Painikkeen avulla voit kirjoittaa Blogger-tekstej\u00E4 milt\u00E4 tahansa verkkosivulta yhdell\u00E4 napsautuksella."
+   },
+   "ext_name": {
+      "message": "Blog This!"
+   },
+   "locale": {
+      "message": "fi"
+   }
+}

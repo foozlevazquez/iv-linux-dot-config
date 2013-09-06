@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "rf_background.html"
+   },
+   "browser_action": {
+      "default_icon": "images/robo32.ico",
+      "default_popup": "rf_toolstrip.html",
+      "default_title": "RoboForm Lite Web-Based"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "savetbar.css" ],
+      "js": [ "rf_onloadcontent.js", "filler.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file:///*" ]
+   } ],
+   "content_security_policy": "default-src 'self';  img-src 'self' data: https://online.roboform.com; connect-src 'self' https://online.roboform.com; style-src 'self' 'unsafe- inline'",
+   "default_locale": "en_US",
+   "description": "RoboForm Lite Password Manager. Saves, fills in login info for web sites. Logins are stored on RoboForm Everywhere server, encrypted",
+   "icons": {
+      "128": "images/robo128.png",
+      "16": "images/robo16.png",
+      "32": "images/robo32.ico",
+      "48": "images/robo48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCmzS66LXa9BW8c0SbSa4zbNSjJMD0TvgfNnlJTw1jLlIhUBPF69aoW5nAunWq1ECA5/bs8UTFCFn23VyKgz7Gnj7rnjIdaNDs+DxdNxJZq12xYa6Yuw98pPJtS+7rfTR4hbThJZHcuPg1bj2aQ/EMdMSYaEsgrxiYmorK7nb/qzQIDAQAB",
+   "manifest_version": 2,
+   "name": "RoboForm Lite",
+   "options_page": "rf_prefs.html",
+   "permissions": [ "tabs", "idle", "notifications", "contextMenus", "unlimitedStorage", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "https://*.roboform.com/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "4.6.9"
+}

@@ -1,0 +1,14 @@
+{
+   "direction": {
+      "message": "ltr"
+   },
+   "ext_description": {
+      "message": "\u5411\u6D4F\u89C8\u5668\u5DE5\u5177\u680F\u4E2D\u6DFB\u52A0\u201C\u53D1\u5E03\u5230\u535A\u5BA2\uFF01\u201D\u6309\u94AE\uFF0C\u60A8\u53EA\u9700\u70B9\u51FB\u8BE5\u6309\u94AE\u5373\u53EF\u4ECE\u4EFB\u610F\u7F51\u9875\u5411 Blogger \u535A\u5BA2\u53D1\u5E03\u5185\u5BB9\u3002"
+   },
+   "ext_name": {
+      "message": "\u53D1\u5E03\u5230\u535A\u5BA2\uFF01"
+   },
+   "locale": {
+      "message": "zh-CN"
+   }
+}
