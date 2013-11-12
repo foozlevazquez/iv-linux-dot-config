@@ -1,6 +1,6 @@
 ## Openbox autostart.sh
 ## ====================
-## When you login to your CrunchBang Openbox session, this autostart script 
+## When you login to your CrunchBang Openbox session, this autostart script
 ## will be executed to set-up your environment and launch any applications
 ## you want to run at startup.
 ##
@@ -65,11 +65,11 @@ xset b off &
 
 ## The following command runs hacks and fixes for #! LiveCD sessions.
 ## Safe to delete after installation.
-cb-cowpowers &
+#cb-cowpowers &
 
 ## cb-welcome - post-installation script, will not run in a live session and
 ## only runs once. Safe to remove.
-(sleep 10s && cb-welcome --firstrun) &
+#(sleep 10s && cb-welcome --firstrun) &
 
 ## cb-fortune - have Waldorf say a little adage
 #(sleep 120s && cb-fortune) &
@@ -82,9 +82,11 @@ if xrandr --query | grep connected | grep VGA; then
    ~/.screenlayout/twoup.sh
 fi
 
+/usr/local/bin/setlayout 0 4 2 0
+
 chromium-browser &
-terminator &
 emacs &
 xfce4-mixer &
 synclient touchpadoff=1
 
+hipchat &
