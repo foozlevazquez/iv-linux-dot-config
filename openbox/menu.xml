@@ -509,7 +509,7 @@
 		<item label="Exit">
 			<action name="Execute">
 				<command>
-					cb-exit
+					openbox --exit
 				</command>
 			</action>
 		</item>

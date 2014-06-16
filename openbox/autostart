@@ -82,11 +82,13 @@ if xrandr --query | grep connected | grep VGA; then
    ~/.screenlayout/twoup.sh
 fi
 
-/usr/local/bin/setlayout 0 4 2 0
+/usr/local/bin/setlayout 0 8 2 0
+
 
 chromium-browser &
+wmctrl -r Chromium -t 4
 emacs &
-xfce4-mixer &
 synclient touchpadoff=1
 
 hipchat &
+sleep 30 && ~/.config/openbox/delayed_start.sh
