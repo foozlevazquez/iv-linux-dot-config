@@ -38,7 +38,7 @@
 		<item label="Text Editor">
 			<action name="Execute">
 				<command>
-                  emacs
+                  bash -c emacs
 				</command>
 			</action>
 		</item>
@@ -68,7 +68,7 @@
 			<item label="Emacs Text Editor">
 				<action name="Execute">
 					<command>
-						emacs
+						bash -c emacs
 					</command>
 				</action>
 			</item>

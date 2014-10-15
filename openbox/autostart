@@ -17,6 +17,8 @@
 ##
 ## Have fun & happy CrunchBangin'! :)
 
+xrdb < ~/.Xdefaults
+
 ## GNOME PolicyKit and Keyring
 eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 
@@ -87,8 +89,11 @@ fi
 
 chromium-browser &
 wmctrl -r Chromium -t 4
-emacs &
-synclient touchpadoff=1
+
+# Pick up the goddamn .bashrc crap
+
+bash -c emacs &
+#synclient touchpadoff=1
 
 hipchat &
-sleep 30 && ~/.config/openbox/delayed_start.sh
+sleep 10 && ~/.config/openbox/delayed_start.sh
